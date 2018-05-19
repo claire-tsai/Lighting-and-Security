@@ -47,7 +47,7 @@ int main(void)
           }
       }
     }
-	}
+	} 
 
 	return E_SYS;	/* system error */
 }
