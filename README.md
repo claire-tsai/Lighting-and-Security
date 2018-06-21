@@ -4,6 +4,7 @@ We designed this product for **aging society**. Most of the old in Taiwan live a
   * [Function](#function)
   * [Algorithm](#algorithm)
   * [System Architecture](#system-architecture)
+  * [Video](https://v.youku.com/v_show/id_XMzYxMzEzODU1Ng==.html?spm=a2h3j.8428770.3416059.1)
   
 ## Introduction
 
