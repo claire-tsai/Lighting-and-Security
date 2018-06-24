@@ -29,6 +29,6 @@ We designed this product for **aging society**. Most of the old in Taiwan live a
 ### System Architecture
   ![architecture][3]
 
-[1]:./picture/app.png
-[2]:./picture/algorithm.png
-[3]:./picture/system_architecture.png
+[1]:./doc/pic/app.png
+[2]:./doc/pic/algorithm.png
+[3]:./doc/pic/system_architecture.png
