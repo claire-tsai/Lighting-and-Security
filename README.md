@@ -51,9 +51,9 @@ The list of haraware is shown in the picture following.
 - Arduino
 
 ### Hardware Connection
-1. EMSK acts as **hub** in this system. It receives stove condition from node, and sends back control signal to turn off the stove.
+1. EMSK acts as **hub** in this system. It receives stove condition from node, and sends control signal to turn off the stove.
 - Connect **HM10** to **J1**
-2. Arduino acts as **node** in this system. It gets the condition around the stove with temperature sensor, motion sensor, and smoke sensor. The Arduino board concludes the received data, and send back to hub.
+2. Arduino acts as **node** in this system. It gets the condition around the stove with temperature sensor, motion sensor, and smoke sensor. The Arduino board concludes received data, and send the judgement to hub.
 - Connect **HM10** to Arduino board as the table below
 
 | HM10 | Arduino |
