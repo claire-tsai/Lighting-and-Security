@@ -38,6 +38,7 @@ We designed this product for **aging society**. Most of the old in Taiwan live a
 - 1 [MQ2 gas sensor][8]
 - 1 [PIR motion sensor module:DYP-ME003][9]
 - 1 [servo motor SG90][10]
+
 The list of haraware is shown in the picture following.
 
 ### Required Software
@@ -85,7 +86,7 @@ The list of haraware is shown in the picture following.
 
 [1]:./doc/pic/app.png "app"
 [2]:./doc/pic/algorithm.png "algorithm"
-[3]:./doc/pic/"system_architecture".png "system_architecture"
+[3]:./doc/pic/system_architecture.png "system_architecture"
 
 [4]:https://www.synopsys.com/dw/ipdir.php?ds=arc_em_starter_kit    "DesignWare ARC EM Starter Kit(EMSK)"
 [5]:https://goods.ruten.com.tw/item/show?21726620422161 "Ble HM10 module"
