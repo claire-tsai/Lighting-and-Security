@@ -5,10 +5,10 @@ We designed this product for **aging society**. Most of the old in Taiwan live a
   * [Algorithm](#algorithm)
   * [System Architecture](#system-architecture)
   * [Demo Video](https://v.youku.com/v_show/id_XMzYxMzEzODU1Ng==.html?spm=a2h3j.8428770.3416059.1)
-* [Hardware and Software Setup](#Hardware and Software Setup)
-  * [Required Hardware](#Required Hardware)
-  * [Required Software](#Required Software)
-  * [Hardware Connection](#Hardware Connection)
+* [Hardware and Software Setup](#hardware-and-software-setup)
+  * [Required Hardware](#required-hardware)
+  * [Required Software](#required-software)
+  * [Hardware Connection](#hardware-connection)
   
 ## Introduction
 
