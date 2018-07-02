@@ -77,6 +77,12 @@ The list of haraware is shown in the picture following.
 | GND(brown line)        | GND     |
 | VDD(red line)          | 5V      |
 
+|  EMSK Implemented Node   |    AWS IoT Thing      |     Source Folder      |
+| ------------------------ | --------------------- | ---------------------- |
+|      wearable node       |        ibaby          |   src/wearable_node    |
+|      lamp node           |        ibaby          |   src/lamp_node        |
+
+
 
 
 [1]:./doc/pic/app.png "app"
