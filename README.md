@@ -71,17 +71,18 @@ The list of haraware is shown in the picture following.
 | GND           | GND     |
 | VDD           | 5V      |
 - Connect **servo motor** to Arduino board as the table below
-| servo motor            | Arduino |
-|------------------------|---------|
-| PWM input(orange line) | D3      |
-| GND(brown line)        | GND     |
-| VDD(red line)          | 5V      |
+
 
 |  EMSK Implemented Node   |    AWS IoT Thing      |     Source Folder      |
 | ------------------------ | --------------------- | ---------------------- |
 |      wearable node       |        ibaby          |   src/wearable_node    |
 |      lamp node           |        ibaby          |   src/lamp_node        |
 
+| servo motor            | Arduino |
+|------------------------|---------|
+| PWM input(orange line) | D3      |
+| GND(brown line)        | GND     |
+| VDD(red line)          | 5V      |
 
 
 
