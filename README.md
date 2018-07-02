@@ -50,6 +50,7 @@ The list of haraware is shown in the picture following.
 - Connect **HM10** to **J1**
 2. Arduino acts as **node** in this system. It gets the condition around the stove with temperature sensor, motion sensor, and smoke sensor. The Arduino board concludes the received data, and send back to hub.
 - Connect **HM10** to Arduino board as the table below
+
 | HM10 | Arduino |
 |------|---------|
 | RXD  | D9      |
@@ -57,6 +58,7 @@ The list of haraware is shown in the picture following.
 | GND  | GND     |
 | VDD  | 5V      |
 - Connect **PMOD TMP2** to Arduino board as the table below
+
 | TMP2 | Arduino |
 |------|---------|
 | SCL  | A5      |
@@ -65,16 +67,13 @@ The list of haraware is shown in the picture following.
 | VDD  | 5V      |
 - Connect **MQ2 gas sensor** to Arduino board as the table below
 - Connect **motion sensor** to Arduino board as the table below
+
 | motion sensor | Arduino |
 |---------------|---------|
 | OUT           | D5      |
 | GND           | GND     |
 | VDD           | 5V      |
 - Connect **servo motor** to Arduino board as the table below
-|  EMSK Implemented Node   |    AWS IoT Thing      |     Source Folder      |
-| ------------------------ | --------------------- | ---------------------- |
-|      wearable node       |        ibaby          |   src/wearable_node    |
-|      lamp node           |        ibaby          |   src/lamp_node        |
 
 | servo motor            | Arduino |
 |------------------------|---------|
