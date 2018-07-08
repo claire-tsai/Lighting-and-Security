@@ -4,6 +4,7 @@
 #define BT1_RxD 8
 #define BT1_TxD 9
 #define infrared_pin 5
+#define smoke_pin 11
 
 //Déclaration d'un port série
 #include <SoftwareSerial.h>
@@ -20,7 +21,7 @@ char stove_condition=0;
 int pos = 180;   // variable to store the servo position
 char dirction = 0;
 int runtime = 0;
-char smoke=0;
+int smoke=0;
 int human_state;
 
 void setup()
@@ -88,22 +89,17 @@ void loop()
       stove_on_cnt++;
     }
     human_state = digitalRead(infrared_pin);
-    //BT2.begin(19200);
-    //if(BT2.available()>0)
-    //{
-      //smoke = BT2.read();
-      //Serial.print(smoke);
-      //if(smoke=='h') stove_condition = 's';
-      if(human_state==HIGH) stove_condition = 'h';
-      else stove_condition = 'n';  
-    //}
-  }
+    smoke = digitalRead(smoke_pin);;
+    if(smoke=='h') stove_condition = 's';
+    else if(human_state==HIGH) stove_condition = 'h';
+    else stove_condition = 'n';  
+   }
   else stove_condition = 'l';
   BT1.write(stove_condition);
   delay(1000);
 }
 // Initialization of Pmod TMP2 module
-void Init_ADT7420(void)
+void Init_ADT7420(void)//temp
 {
 // Configuring the ADT7420 in 16 bit mode
  Wire.beginTransmission(ADT7420_Adresse);
