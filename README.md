@@ -86,6 +86,16 @@ The list of haraware is shown in the picture following.
 | GND(brown line)        | GND     |
 | VDD(red line)          | 5V      |
 
+##User Manual
+### Before Running This Application
+Download src code from github and upload them to EMSK and Arduino board respectively.
+### Run This Application
+Upload src code to EMSK and Arduino board respectively, and open the terminal to observe how they communicate with each other. 
+
+| Source Folder    | Board   |
+|------------------|---------|
+| src/ARC          | EMSK    |
+| src/Arduino/node | Arduino |
 
 
 [1]:./doc/pic/app.png "app"
