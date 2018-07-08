@@ -9,6 +9,9 @@ We designed this product for **aging society**. Most of the old in Taiwan live a
   * [Required Hardware](#required-hardware)
   * [Required Software](#required-software)
   * [Hardware Connection](#hardware-connection)
+* [User Manual](#user-manual)
+  * [Before Running This Application](#before-running-this-application)
+  * [Run This Application](#run-this-application)
   
 ## Introduction
 
@@ -86,7 +89,7 @@ The list of haraware is shown in the picture following.
 | GND(brown line)        | GND     |
 | VDD(red line)          | 5V      |
 
-##User Manual
+## User Manual
 ### Before Running This Application
 Download src code from github and upload them to EMSK and Arduino board respectively.
 ### Run This Application
